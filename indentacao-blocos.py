@@ -4,6 +4,5 @@ def sacar(valor):
     if saldo >= valor:
         print("Valor sacado!")
 
-
 print("Obrigado por ser nosso cliente, tenha um bom dia!")
 sacar(100)
