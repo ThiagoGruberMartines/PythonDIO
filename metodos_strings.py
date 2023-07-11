@@ -11,11 +11,11 @@ print(texto.title())    # Deixa só a primeira letra maiúscula e o resto minús
 
 curso = "   Python   "
 
-print(curso.strip())    # Remove os espaços da esquerda e da direita
+print(curso.strip() + ".")    # Remove os espaços da esquerda e da direita
 
-print(curso.lstrip())   # Remove os espaços da esquerda
+print(curso.lstrip() + ".")   # Remove os espaços da esquerda
 
-print(curso.rstrip())   # Remove os espaços da direita
+print(curso.rstrip() + ".")   # Remove os espaços da direita
 
 
 
